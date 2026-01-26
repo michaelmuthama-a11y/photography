@@ -8,17 +8,111 @@
 <body>
 
     <header class="header">
-        <h1>Photography</h1>
-        <p>Capturing moments through the lens.</p>
+        <section id="home" class="hero" style="background-image: url('images/timothy-cohen-4uyu3PAGayQ-unsplash.jpg');">
+            <div class="hero-content">
+                <h1>Photography website</h1>
+                <p>Capturing moments through the lens.</p>
+                <a href="#gallery" class="btn">View Gallery</a>
+            </div>
+        </section>
     </header>
-
     <section class="content">
-        <h2>About</h2>
-        <p>This website is for learning basic HTML and CSS using a photography theme.</p>
+        <h2>About us</h2> 
+        <p>This is a photography website where we capture and share beautiful moments. We do our work with passion and dedication. We are a team of passionate photographers and artists. We create stunning visual stories and memories.</p>
+        <div class="about-us">
+          <div>
+            <h3>Our Mission</h3>
+            <p>To capture the beauty of the world through our lenses and share it with others.</p>  
+          </div>
+          <div>
+            <h3>Our Vision</h3>
+            <p>To be a leading photography website that inspires and connects people through visual storytelling.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/dawid-tkocz-zXhqWOi2uXw-unsplash.jpg" alt="Landscape photography">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/martina-nette-uBjBr9CvNiw-unsplash(1).jpg" alt="Nature photography">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/timothy-cohen-4uyu3PAGayQ-unsplash.jpg" alt="Landscape view">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3>Portrait Photography</h3>
+                    <p>Professional studio and outdoor portrait sessions with premium editing and retouching.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💒</div>
+                    <h3>Wedding Photography</h3>
+                    <p>Capture your special day with artistic compositions and timeless memories.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏞️</div>
+                    <h3>Landscape Photography</h3>
+                    <p>Stunning landscape and nature photography for prints and commercial use.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Event Photography</h3>
+                    <p>Professional coverage for corporate events, parties, and special occasions.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">✏️</div>
+                    <h3>Photo Editing</h3>
+                    <p>Professional editing, retouching, and color correction services.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🖼️</div>
+                    <h3>Print Products</h3>
+                    <p>High-quality prints, albums, and canvas products for your favorite images.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
 
     <footer class="footer">
-        <p>© 2026 Photography Website</p>
+        <p>&copy; 2026 Photography Website. All rights reserved.</p>
+        <p>Follow us on social media for more beautiful moments.</p>
     </footer>
 
 </body>
